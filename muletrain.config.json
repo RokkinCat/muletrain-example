@@ -1,5 +1,5 @@
 {
-    "url": "https://muletrain-example.s3.amazonaws.com",
+    "url": "https://muletrain-example.s3.us-east-2.amazonaws.com",
     "aws": {
         "bucket": "muletrain-example",
         "region": "us-east-2"
