@@ -26,5 +26,5 @@ jobs:
         run: echo '::set-output name=CHANNEL::$(if [[ "${{ steps.get_version.outputs.VERSION }}" =~ $REGEX ]]; then echo "${BASH_REMATCH[1]}"; else echo "production"; fi)'
       - run: npm ci
       - run: npm run build
-      - run: npx muletrain deploy --id ${{ steps.get_version.outputs.VERSION }} --channel ${{ steps.get_channel.outputs.CHANNEL }}
+      - run: npx muletrain deploy --id "${{ steps.get_version.outputs.VERSION }}" --channel "${{ steps.get_channel.outputs.CHANNEL }}"
       
