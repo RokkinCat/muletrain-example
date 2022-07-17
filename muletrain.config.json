@@ -2,7 +2,8 @@
     "url": "https://muletrain-example.s3.us-east-2.amazonaws.com/manifest.json",
     "aws": {
         "bucket": "muletrain-example",
-        "region": "us-east-2"
+        "region": "us-east-2",
+        "credentials": "s3.json"
     },
     "binaries": {
         "ios": {
