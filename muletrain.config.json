@@ -1,7 +1,17 @@
 {
-    "url": "https://muletrain-example.s3.us-east-2.amazonaws.com",
+    "url": "https://muletrain-example.s3.us-east-2.amazonaws.com/manifest.json",
     "aws": {
         "bucket": "muletrain-example",
         "region": "us-east-2"
+    },
+    "binaries": {
+        "ios": {
+            "equivalent": "",
+            "compatible": []
+        },
+        "android": {
+            "equivalent": "",
+            "compatible": []
+        }
     }
 }

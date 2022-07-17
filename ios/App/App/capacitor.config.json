@@ -1,0 +1,11 @@
+{
+	"appId": "com.rokkincat.muletrain-example",
+	"appName": "muletrain-example",
+	"webDir": "build",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"Muletrain": {
+			"url": "https://muletrain-example.s3.us-east-2.amazonaws.com/manifest.json"
+		}
+	}
+}
