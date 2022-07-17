@@ -9,7 +9,8 @@ const config: CapacitorConfig = {
   bundledWebRuntime: false,
   plugins: {
     Muletrain: {
-      url: muletrainConfig["url"]
+      url: muletrainConfig["url"],
+      enableInDev: true
     }
   }
 };

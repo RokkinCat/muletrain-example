@@ -5,7 +5,8 @@
 	"bundledWebRuntime": false,
 	"plugins": {
 		"Muletrain": {
-			"url": "https://muletrain-example.s3.us-east-2.amazonaws.com/manifest.json"
+			"url": "https://muletrain-example.s3.us-east-2.amazonaws.com/manifest.json",
+			"enableInDev": true
 		}
 	}
 }
