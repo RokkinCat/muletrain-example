@@ -20,7 +20,7 @@ Follow the prompts, this will create the file `muletrain.config.json` in the roo
 
 ```json
 {
-  "url": "https://bucket.s3.us-east-2.amazonaws.com",
+  "url": "https://bucket.s3.us-east-2.amazonaws.com/manifest.json",
   "aws": {
     "credentials": "./s3.json",
     "bucket": "bucket",
