@@ -1,8 +1,9 @@
 {
-  "name": "muletrain-example",
+  "name": "muletrain_example",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^3.6.0",
     "@capacitor/app": "1.1.1",
     "@capacitor/core": "3.6.0",
     "@capacitor/haptics": "1.1.4",
