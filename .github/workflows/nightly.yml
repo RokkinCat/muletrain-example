@@ -2,8 +2,8 @@ name: Nightly Release
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 7 * * *' # run at 7 AM UTC (2am central)
+#  schedule:
+#    - cron: '0 7 * * *' # run at 7 AM UTC (2am central)
 
 
 env: 
